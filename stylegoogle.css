@@ -37,9 +37,32 @@ header .right p.user {
   margin-top: 10px;
   color: #595959;
 }
+.connexion {
+    background: rgb(26, 115, 232);
+  border-radius: 4px;
+  min-width: 96px;
+  text-align: center;
+  height: auto;
+  margin: 0 8px;
+  padding: 9px 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.connexion a{
+    color: white;
+    text-decoration: none;
+    
+}
+
 /* Fin de la partie header */
 
 /* Partie principale */
+img {
+    width: 300px;
+}
+
 .main {
   display: flex;
   flex-direction: column;
@@ -75,6 +98,30 @@ header .right p.user {
   position: relative;
   cursor: pointer;
 }
+
+.loupe {
+    display: block;
+    height: 100%;
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+}
+
+.loupe a{
+    margin-top: 3px;
+    color: #9aa1a6;
+}
+
+.mic {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
 .main .buttons {
   margin-top: 40px;
 }
